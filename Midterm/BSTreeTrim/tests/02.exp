@@ -1,0 +1,28 @@
+Enter the preorder traversal of the BST: Enter value of lower: Enter value of upper: BST before trimming values between 6 and 8:
+
+      4
+     / \
+    /   \
+   /     \
+  2       6
+ / \     / \
+1   3   5   9
+           /
+          8
+         /
+        7
+
+BST after trimming values between 6 and 8:
+=== ignored by test >>>
+
+      4
+     / \
+    /   \
+   /     \
+  2       9
+ / \     /
+1   3   5
+
+<<< ignored by test ===
+
+Inorder traversal of the BST: 1 2 3 4 5 9 

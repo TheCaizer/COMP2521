@@ -1,0 +1,26 @@
+BSTree deleteNode(BSTree t){
+	if(t->left == NULL){
+		BSTree leaf = t->right;
+		t = NULL;
+		return leaf;
+	}
+	else if(t->right == NULL){
+		BSTree leaf = t->left;
+		t = NULL;
+		return leaf;
+	}
+	BSTree next = leftMost(t->right);
+	t->value = next->value;
+	deleteNode(leftMost(t->right));
+	return t;
+}
+
+BSTree leftMost(BSTree t){
+	if(t == NULL){
+		return NULL;
+	}
+	while(t->left != NULL){
+		t = t->left;
+	}
+	return t;
+}
