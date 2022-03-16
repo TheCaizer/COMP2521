@@ -1,0 +1,13 @@
+Enter the preorder traversal of the BST: Enter value of lower: Enter value of upper: BST before trimming values between 4 and 7:
+
+      4
+     / \
+    /   \
+   /     \
+  2       6
+ / \     / \
+1   3   5   7
+
+BST after trimming values between 4 and 7:
+
+Inorder traversal of the BST: 1 2 3 
