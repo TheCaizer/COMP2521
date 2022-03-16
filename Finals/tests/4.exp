@@ -1,0 +1,14 @@
+rankPopularity, From: 7 
+
+Edge inserted:  2 -> 7 
+Edge inserted:  1 -> 6 
+Edge inserted:  4 -> 2 
+Edge inserted:  2 -> 5 
+Edge inserted:  3 -> 7 
+Edge inserted:  5 -> 1 
+Edge inserted:  1 -> 7 
+
+
+rankPopularity: 
+ node: 7, rank:      6.000 
+ 

@@ -1,0 +1,19 @@
+rankPopularity, From: 4 
+
+Edge inserted:  4 -> 3 
+Edge inserted:  4 -> 1 
+Edge inserted:  3 -> 1 
+Edge inserted:  2 -> 5 
+Edge inserted:  2 -> 1 
+Edge inserted:  2 -> 4 
+Edge inserted:  2 -> 3 
+Edge inserted:  1 -> 5 
+Edge inserted:  3 -> 5 
+
+
+rankPopularity: 
+ node: 1, rank:      3.000 
+ node: 3, rank:      1.000 
+ node: 4, rank:      0.500 
+ node: 5, rank:      6.000 
+ 
