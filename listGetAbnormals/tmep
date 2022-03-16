@@ -1,0 +1,25 @@
+List addList(List l, int value){
+	Node node = newNode(value);
+	//empty list therefore you can add it if it's condition match
+	if(l->size == 0){
+		l->first = node;
+		l->last = node;
+		l->size++;
+		return l;
+	}
+	else if(l->size == 1){
+		//has a size of one so you can just add to end
+		l->first->next = node;
+		node->prev = l->first;
+		l->last = node;
+		l->size++;
+		return l;
+	}
+	else{
+		l->last->next = node;
+		node->prev = l->last;
+		l->last = node;
+		l->size++;
+		return l;
+	}
+}

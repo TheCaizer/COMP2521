@@ -1,0 +1,13 @@
+> Enter list: > Enter threshold: 
+-----------------
+>> Original list:
+Size: 8
+Forwards:  [55] -> [51] -> [48] -> [42] -> [22] -> [21] -> [18] -> [16] -> X
+Backwards: [16] -> [18] -> [21] -> [22] -> [42] -> [48] -> [51] -> [55] -> X
+
+>> Threshold: 2
+-----------------
+>> Abnormals:
+Size: 4
+Forwards:  [51] -> [48] -> [42] -> [18] -> X
+Backwards: [18] -> [42] -> [48] -> [51] -> X
