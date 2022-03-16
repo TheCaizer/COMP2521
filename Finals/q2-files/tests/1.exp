@@ -1,0 +1,27 @@
+
+Displaying t1 (sideways) 
+	70
+50
+		44
+	30
+		20
+
+
+Displaying t2 (sideways) 
+	70
+50
+		44
+	30
+		20
+
+
+Displaying t3 (sideways) 
+	70
+50
+		44
+			30
+	20
+
+ -------  
+equalBST(t1, t2) returns: 1 
+equalBST(t2, t3) returns: 0 
