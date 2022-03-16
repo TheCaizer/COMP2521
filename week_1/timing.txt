@@ -1,0 +1,38 @@
+Input	Initial	Has	Number	AvgTime	AvgTime
+Size	Order	Dups	of runs	forusel	forsort
+5000	random	no	5	0.125sec	0.0039sec
+5000	sorted	no	5	0.025sec	0.0035sec
+5000	reverse	no	5	0.026sec	0.0039sec
+5000	random	yes	5	0.13sec	    0.0041sec
+5000	sorted	yes	5	0.023sec	0.0034sec
+5000	reverse	yes	5	0.024sec	0.0034sec
+10000	random	no	5	0.376sec	0.010sec
+10000	sorted	no	5	0.034sec	0.005sec
+10000	reverse	no	5	0.032sec	0.005sec
+10000	random	yes	5	0.4sec	    0.010sec
+10000	sorted	yes	5	0.031sec	0.005sec
+10000	reverse	yes	5	0.032sec	0.005sec
+20000	random	no	5	2.1sec	    0.018sec
+20000	sorted	no	5	0.055sec	0.011sec
+20000	reverse	no	5	0.048sec	0.0097sec
+20000	random	yes	5	1.9sec	    0.021sec
+20000	sorted	yes	5	0.055sec	0.010sec
+20000	reverse	yes	5	0.051sec	0.012sec
+50000	random	no	5	14.6sec	    0.052sec
+50000	sorted	no	5	0.12sec	    0.024sec
+50000	reverse	no	5	0.13sec	    0.024sec
+50000	random	yes	5	14.1sec	    0.052sec
+50000	sorted	yes	5	0.13sec	    0.024sec
+50000	reverse	yes	5	0.13sec	    0.033sec
+100000	random	no	5	58sec	    0.095sec
+100000	sorted	no	5	0.17sec	    0.049sec
+100000	reverse	no	5	0.17sec	    0.052sec
+100000	random	yes	5	58sec	    0.099sec
+100000	sorted	yes	5	0.17sec	    0.049sec
+100000	reverse	yes	5	0.17sec	    0.057sec
+
+These are the results of the timing from using the script given to us and edited versus the sort function in linux. It is apparent that the sort
+function is alot more efficent than out code since it has been developed by many more experienced people for a long time. The reulst show that duplicates
+sort faster than no duplicates but not by a large margin.As well as the more numbers the longer it takes. It is also apparent that the random takes more
+time to sort than other since it requires more computing power to find it all. Sorted doesn't take much time as the computer is just looking at reading the 
+file and reverse also takes little time but more than sorted.
